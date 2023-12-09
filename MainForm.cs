@@ -54,7 +54,7 @@ namespace FigureDrawingApplication
 
 		private bool ValuesIsValid()
 		{
-			if (selectComboBox.SelectedItem is null || widthComboBox.SelectedItem is null || heightComboBox.SelectedItem is null)
+			if (selectComboBox.SelectedItem is null || widthComboBox.SelectedItem is null || heightComboBox.SelectedItem is null || colorComboBox.SelectedItem is null)
 			{
 				MessageBox.Show("Выберите значение из списка");
 				return false;
